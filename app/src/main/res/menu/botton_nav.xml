@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/scheduleMenuItem"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:title="Schedule" />
+    <item
+        android:id="@+id/homeMenuItem"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/linksMenuItem"
+        android:icon="@drawable/baseline_link_24"
+        android:title="Links" />
+</menu>

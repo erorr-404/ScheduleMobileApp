@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Timetable" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="cardBackgroundColor">@android:color/system_primary_container_light</item>-->
+    </style>
+
+    <style name="Theme.Timetable" parent="Base.Theme.Timetable" />
+
+    <style name="ThemeOverlay.Timetable.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+
+    <style name="Splashscreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icon_hi_res</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Timetable</item>
+    </style>
+</resources>
