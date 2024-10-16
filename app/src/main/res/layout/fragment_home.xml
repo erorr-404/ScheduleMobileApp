@@ -112,7 +112,7 @@
             android:textAppearance="?attr/textAppearanceTitleLarge"/>
 
         <com.google.android.material.materialswitch.MaterialSwitch
-            android:id="@+id/switch2"
+            android:id="@+id/notificationSwitch"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
@@ -131,7 +131,7 @@
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/switch2" />
+            app:layout_constraintTop_toBottomOf="@+id/notificationSwitch" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

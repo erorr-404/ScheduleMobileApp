@@ -2,13 +2,9 @@ package com.erorr404.timetable
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-
-@Parcelize
-data class TSubject(
-    var name: String,
-    var importance: Int,
-    var link: String
-) : Parcelable
+import java.time.LocalDateTime
+import java.time.LocalTime
+import java.util.Calendar
 
 @Parcelize
 data class Subject(
@@ -43,4 +39,11 @@ data class ScheduleListItem(
     val lesson: String,
     val link: String,
     val start: TimeSlot
+)
+
+data class AlarmItem(
+    val time: Calendar,
+    val title: String,
+    val content: String,
+    val intentLink: String
 )
